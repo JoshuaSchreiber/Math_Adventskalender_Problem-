@@ -35,7 +35,13 @@
     <input type="text" id="width" name="width" required><br>
 
     <label for="windowType">Fensterart:</label>
-    <input type="text" id="windowType" name="windowType" required><br>
+    <select id="windowType" name="windowType" required>
+        <option value="Fenster">Fenster</option>
+        <option value="Glas Ug 1,1">Glas Ug 1,1</option>
+        <option value="Glas Ug 0.6">Glas Ug 0.6</option>
+    </select>
+    <br>
+
 
     <button type="button" onclick="calculatePrice()">Berechnen</button>
 </form>
